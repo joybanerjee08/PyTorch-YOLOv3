@@ -106,6 +106,10 @@ Run the commands below to create a custom model definition, replacing `<num-clas
 ```
 $ cd config/                                # Navigate to config dir
 $ bash create_custom_model.sh <num-classes> # Will create custom model 'yolov3-custom.cfg'
+
+OR 
+
+$ bash create_tiny_custom_model.sh <num-classes> # Will create tiny custom model 'yolov3-tiny-custom.cfg'
 ```
 
 #### Classes
